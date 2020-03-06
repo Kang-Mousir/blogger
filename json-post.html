@@ -165,17 +165,13 @@ function generatePostsData(json) {
         html += '<p><b>Content:</b></p>';
         html += '<div>' + postContent + '</div>';
         html += '</li>';
-
     }
- 
     // Building the markup ...
     html += '</ol>';
 
     // Show the generated data to the container ...
     container.innerHTML = html;
-
 }
-
 </script>
 <script src="//www.dte.web.id//feeds/posts/default?alt=json-in-script&amp;orderby=published&amp;max-results=10&amp;callback=generatePostsData"></script>
 
